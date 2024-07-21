@@ -1,0 +1,7 @@
+gradientes que me gustaron: 
+
+bg-gradient-to-r from-emerald-400 to-cyan-400 (para bg)
+bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent (para texto)
+
+bg-gradient-to-r from-slate-900 to-slate-700
+bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent
