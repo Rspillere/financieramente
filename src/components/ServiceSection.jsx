@@ -1,6 +1,9 @@
+import useScrollAnimation from "../hooks/useScroll";
+
 const ServiceSection = () => {
+  useScrollAnimation('animate-fadeIn')
   return (
-    <div className="bg-gray-100">
+    <div id="ServiceSection" className="bg-gray-100 section opacity-0">
       <div className="md:pt-24 pt-12 md:pb-10 pb-20 md:px-16 px-8 mx-auto max-w-7xl">
         <div className="my-16 sm:flex-row-reverse flex-col flex sm:mb-28">
           <img

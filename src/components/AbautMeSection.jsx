@@ -8,7 +8,7 @@ const AboutMeSection = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-slate-700 relative mt-20">
+    <div id='AbautMeSection' className="bg-gradient-to-r from-slate-900 to-slate-700 relative mt-20">
       <div className="relative h-32">
         <div
           style={{

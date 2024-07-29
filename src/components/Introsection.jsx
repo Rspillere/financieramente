@@ -1,9 +1,9 @@
 const Introsection = () => {
   return (
-    <div className="md:pt-24 pt-12 md:px-16 px-8 mx-auto max-w-7xl">
+    <div className=" xl:pt-52 md:pt-24 pt-12 md:px-16 px-8 mx-auto max-w-7xl">
       <div className="lg:flex-row flex flex-col justify-between items-center">
         <div>
-          <h1 className="md:text-5xl text-4xl text-gray-900 font-medium mt-7 mb-3">
+          <h1 className="text-3xl md:text-4xl 2xl:text-6xl font-bold text-gray-900 mt-7 mb-3">
             ¡Te lo explico en criollo!
           </h1>
           <h2 className="text-2xl text-gray-900 w-full lg:w-3/4 mb-7">

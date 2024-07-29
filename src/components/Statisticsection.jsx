@@ -1,8 +1,11 @@
 import { Carousel } from 'flowbite-react';
+import useScrollAnimation from '../hooks/useScroll';
+import 'tailwindcss/tailwind.css';
 
 const Statisticsection = () => {
+  useScrollAnimation('animate-fadeIn')
   return (
-    <section className="md:pt-24 pt-12 md:pb-10 pb-20 md:px-16 px-8 mx-auto max-w-7xl">
+    <section className="md:pt-24 pt-12 md:pb-10 pb-20 md:px-16 px-8 mx-auto max-w-7xl section opacity-0">
       <div className="lg:flex-row flex flex-col-reverse justify-between items-center">
         <div className="">
           <h1 className=" md:text-5xl text-4xl text-gray-900 font-medium my-7 bg-gradient-to-r from-cyan-900 to-cyan-600 bg-clip-text text-transparent">

@@ -57,7 +57,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-r from-slate-900 to-slate-700 text-white">
+    <footer id='footer' className="bg-gradient-to-r from-slate-900 to-slate-700 text-white lg:pt-48 lg:pb-24">
       <div className="md:pt-24 pt-12 md:pb-10 pb-20 md:px-16 px-8 mx-auto max-w-7xl">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 md:w-1/3">

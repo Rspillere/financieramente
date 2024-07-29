@@ -1,6 +1,9 @@
+import useScrollAnimation from "../hooks/useScroll";
+import 'tailwindcss/tailwind.css';
 const PilaresSection = () => {
+  useScrollAnimation('animate-fadeIn');
   return (
-    <div className="bg-gradient-to-r from-amber-300 to-amber-100 mt-20">
+    <div id="cursos" className="bg-gradient-to-r from-amber-300 to-amber-100 mt-20 section opacity-0">
       <div className="relative h-32">
         <div
           style={{

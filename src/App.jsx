@@ -6,6 +6,7 @@ import Statisticsection from './components/Statisticsection'
 import ServiceSection from './components/ServiceSection'
 import Footer from './components/Footer'
 import AboutMeSection from './components/AbautMeSection'
+import YoutubeCarousel from './components/YouTubeCarousel'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>
         <Herosection/>
         <Introsection/>
+        <YoutubeCarousel/>
         <PilaresSection/>
         <Statisticsection/>
         <AboutMeSection/>

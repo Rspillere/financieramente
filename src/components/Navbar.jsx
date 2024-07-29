@@ -3,9 +3,10 @@ import { useState } from 'react';
 const Navbar = () => {
 
   const menu = [
-    ["option 1", "link 1"],
-    ["option 2", "link 2"],
-    ["option 3", "link 3"]
+    ["Cursos", "#cursos"],
+    ["quién soy?", "#AbautMeSection"],
+    ["Servicios", "#ServiceSection"],
+    ["Contacto", "#footer"]
   ]
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
