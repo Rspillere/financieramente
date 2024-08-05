@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="fixed w-full bg-gradient-to-r from-slate-900 via-slate-900 to-slate-700 flex px-6 z-20">
       <div className="hidden md:flex md:justify-end w-full"> {/* Ocultar en dispositivos más pequeños */}
         {menu.map(m => 
-          (<a key={m[0]} href={m[1]} className="text-gray-50 mx-3 my-3 hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out">
+          (<a key={m[0]} href={m[1]} className="text-gray-50 mx-3 my-3 hover:cursor-pointer hover:scale-105 transition duration-300 ease-in-out font-semibold">
             {m[0]}
           </a>)
         )}

@@ -3,15 +3,18 @@ const Introsection = () => {
     <div className=" xl:pt-52 md:pt-24 pt-12 md:px-16 px-8 mx-auto max-w-7xl">
       <div className="lg:flex-row flex flex-col justify-between items-center">
         <div>
-          <h1 className="text-3xl md:text-4xl 2xl:text-6xl font-bold text-gray-900 mt-7 mb-3">
+        <div className="flex">
+              
+              <h2 className="text-lg md:text-2xl text-gray-900 font-semibold">
+                Desde Uruguay a Wall Street
+              </h2>
+            </div>
+          <h1 className="text-3xl md:text-4xl 2xl:text-6xl font-bold text-gray-900 mt-7 my-4 md:my-10">
             ¡Te lo explico en criollo!
           </h1>
-          <h2 className="text-2xl text-gray-900 w-full lg:w-3/4 mb-7">
-            Desde Uruguay a Wall Street
-          </h2>
           <div className="flex">
-            <div className="bg-gray-900 w-1 h-auto mr-3"></div>
-            <div className=" text-md md:text-lg text-gray-900 w-full lg:w-3/4">
+            <div className="bg-gray-900 md:w-1 w-0.5 h-auto mr-3"></div>
+            <div className=" text-sm md:text-lg text-gray-900 w-full lg:w-3/4 font-semibold">
               <p className="mb-2">
                 Financiera-Mente es una comunidad de personas apasionadas por las
                 finanzas y las inversiones que busca poner el dinero a trabajar

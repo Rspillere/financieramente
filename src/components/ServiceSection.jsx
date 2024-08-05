@@ -3,7 +3,7 @@ import useScrollAnimation from "../hooks/useScroll";
 const ServiceSection = () => {
   useScrollAnimation('animate-fadeIn')
   return (
-    <div id="ServiceSection" className="bg-gray-100 section opacity-0">
+    <div id="ServiceSection" className="bg-gray-100 section opacity-0 pb-16 xl:pb-32">
       <div className="md:pt-24 pt-12 md:pb-10 pb-20 md:px-16 px-8 mx-auto max-w-7xl">
         <div className="my-16 sm:flex-row-reverse flex-col flex sm:mb-28">
           <img
@@ -13,13 +13,23 @@ const ServiceSection = () => {
             className="h-56 object-contain lg:h-72 sm:mr-20"
           />
           <div>
-            <h1 className="md:text-4xl text-3xl text-gray-900 font-medium my-7">
+          <div className="flex">
+              <img
+                src="/servicio.png"
+                alt=""
+                className=" w-6 h-min mr-3 self-center md:w-10"
+              />
+              <h2 className="text-lg md:text-2xl text-gray-900 font-semibold">
+                Servicios
+              </h2>
+            </div>
+            <h1 className="text-3xl md:text-4xl 2xl:text-6xl font-bold text-gray-900 mt-7 my-4 md:my-10">
               La mejor inversión que podés hacer es en vos mismo.
             </h1>
             <div className="flex">
-              <div className="bg-gray-900 w-1 h-auto mr-3"></div>
-              <h2 className="text-lg md:text-xl text-gray-900 w-full lg:w-2/3">
-                No siempre tenemos el tiempo para ponernos a investigar y aprender absolutamente todo por nosotros mismos. No siempre la experiencia personal y darnos contra la pared constantemente es el mejor maestro. Si valorás tu tiempo y querés un atajo para lograr tus objetivos financieros más rápido y eficiente, quizás estos servicios educativos y de acompañamiento puede ser lo que estás buscando.
+              <div className="bg-gray-900 md:w-1 w-0.5 h-auto mr-3"></div>
+              <h2 className=" text-sm md:text-lg text-gray-900 w-full lg:w-3/4 font-semibold">
+                No siempre tenemos el tiempo para ponernos a investigar y aprender absolutamente todo por nosotros mismos. No siempre la experiencia personal y darnos contra la pared constantemente es el mejor maestro. Si valorás tu tiempo y querés un atajo para lograr tus objetivos financieros más rápido y de forma eficiente, estos servicios educativos y de acompañamiento puede ser lo que estás buscando.
               </h2>
             </div>
           </div>
@@ -68,7 +78,6 @@ const CourseCard = ({ title, description, active = true, image }) => {
           <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
           <p className="text-gray-600 mb-4">{description}</p>
         </div>
-
         <div
           className={`${
             active
@@ -77,7 +86,7 @@ const CourseCard = ({ title, description, active = true, image }) => {
           } w-fit px-4 py-1 rounded-md self-end `}
         >
           <a
-            href=""
+            href="#contactofm"
             className={`flex items-center text-white ${
               active ? 'cursor-pointer' : 'cursor-default'
             }`}

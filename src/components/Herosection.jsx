@@ -1,7 +1,7 @@
 const Herosection = () => {
   return (
     <div className="bg-[url('/foto-mauro.png')] bg-cover bg-center sm:bg-top relative">
-      <div className="pb-32 md:pb-40 pt-32 md:pt-48 xl:pt-64 2xl:pt-96 pl-6 2xl:pl-24 flex items-center bg-black bg-opacity-50">
+      <div className="pb-32 md:pb-40 pt-32 md:pt-48 xl:pt-64 2xl:pt-96 pl-6 2xl:pl-24 flex items-center  bg-slate-900 bg-opacity-65">
         <img
           src="/logo.png"
           type="image/png"
@@ -15,7 +15,10 @@ const Herosection = () => {
           <h2 className="text-xl md:text-2xl 2xl:text-3xl text-white mb-6">
             Finanzas | Inversiones | Trading | Criptomonedas
           </h2>
+            <a href="http://youtube.com/c/FinancieraMente?sub_confirmation=1">
           <button className=" animate-pulse mt-4 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-medium rounded-lg flex items-center absolute bottom-6">
+            
+            
             <svg
               className="h-6 w-6 mr-2 "
               fill="currentColor"
@@ -26,6 +29,8 @@ const Herosection = () => {
             </svg>
             Ver en YouTube
           </button>
+          </a>
+            
         </div>
       </div>
     </div>
