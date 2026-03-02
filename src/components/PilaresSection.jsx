@@ -26,7 +26,7 @@ const PilaresSection = () => {
             <div className="flex">
               <img
                 src="/cursos.png"
-                alt=""
+                alt="Icono de cursos gratis de finanzas personales e inversiones"
                 className=" w-6 h-min mr-3 self-center md:w-10"
               />
               <h2 className="text-lg md:text-2xl text-gray-900 font-semibold">
@@ -103,7 +103,7 @@ const CourseCard = ({ title, description, active = true, image, href }) => {
       <div className="flex justify-center mb-4">
         <img
           src={image}
-          alt=""
+          alt={title}
           className="max-h-48 object-contain rounded-md"
         />
       </div>

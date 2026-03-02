@@ -54,10 +54,10 @@ const CHANNEL_ID = 'UCt16RZgWCCv90coEqHXonBw';
             <div key={video.id.videoId} className="flex justify-center mb-10 mt-10">
               <div className="video-item rounded-lg shadow-md p-4 mx-2 md:mx-4 lg:mx-6 w-full max-w-md">
                 <a href={`https://www.youtube.com/watch?v=${video.id.videoId}`} target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={video.snippet.thumbnails.high.url}
-                    alt={video.snippet.title}
-                    className="w-full h-auto"
+                <img
+                  src={video.snippet.thumbnails.high.url}
+                  alt={`Video de YouTube: ${video.snippet.title}`}
+                  className="w-full h-auto"
                   />
                 </a>
                 <h3 className="text-xl mt-4">{video.snippet.title}</h3>

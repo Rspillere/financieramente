@@ -27,12 +27,12 @@ const AboutMeSection = () => {
         <img
           id="foto"
           src="/mauro-desck.png"
-          alt=""
+          alt="Mauro, creador de Financiera-Mente y licenciado en Administración con orientación financiera"
           className={!isOpen ? `hidden 2xl:block ml-auto h-full absolute z-10 right-0 top-0`: 'hidden'}
         />
       <img
         src="/mauro-desck.png"
-        alt=""
+        alt="Mauro de Financiera-Mente en versión móvil"
         className="block md:hidden w-full"
       />
       <div className="mx-auto max-w-7xl">

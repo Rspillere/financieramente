@@ -9,9 +9,9 @@ const Introsection = () => {
                 Desde Uruguay a Wall Street
               </h2>
             </div>
-          <h1 className="text-3xl md:text-4xl 2xl:text-6xl font-bold text-gray-900 mt-7 my-4 md:my-10">
-            ¡Te lo explico en criollo!
-          </h1>
+          <h2 className="text-3xl md:text-4xl 2xl:text-6xl font-bold text-gray-900 mt-7 my-4 md:my-10">
+            ¡Te explico las finanzas en criollo!
+          </h2>
           <div className="flex">
             <div className="bg-gray-900 md:w-1 w-0.5 h-auto mr-3"></div>
             <div className=" text-sm md:text-lg text-gray-900 w-full lg:w-3/4 font-semibold">
@@ -49,7 +49,7 @@ const Introsection = () => {
         <img
           src="/mate-mauro.png"
           type="image/png"
-          alt=""
+          alt="Mauro de Financiera-Mente tomando mate mientras enseña finanzas personales e inversiones"
           className="hauto lg:w-96 rounded-full my-10 mt-14"
         />
       </div>

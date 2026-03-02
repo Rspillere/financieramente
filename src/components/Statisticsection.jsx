@@ -21,7 +21,7 @@ const Statisticsection = () => {
         <img
           src="/medalla.png"
           type="image/png"
-          alt=""
+          alt="Resultados de inversión de Mauro superando al índice S&P 500"
           className="h-auto w-44 lg:w-60"
         />
       </div>

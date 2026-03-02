@@ -5,15 +5,15 @@ const Herosection = () => {
         <img
           src="/logo.png"
           type="image/png"
-          alt="Logo"
+          alt="Logo de Financiera-Mente, educación en finanzas personales e inversiones"
           className="hidden lg:block h-40 2xl:h-56 mr-8"
         />
         <div className="text-center lg:text-left">
           <h1 className="text-4xl md:text-5xl 2xl:text-7xl font-bold text-white my-4">
-            Financiera-Mente
+            Financiera-Mente: finanzas personales e inversiones
           </h1>
           <h2 className="text-xl md:text-2xl 2xl:text-3xl text-white mb-6">
-            Finanzas | Inversiones | Trading | Criptomonedas
+            Finanzas personales | Inversiones | Trading | Criptomonedas
           </h2>
             <a href="http://youtube.com/c/FinancieraMente?sub_confirmation=1">
           <button className=" animate-pulse mt-4 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-medium rounded-lg flex items-center absolute bottom-6">

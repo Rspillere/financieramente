@@ -9,14 +9,14 @@ const ServiceSection = () => {
           <img
             src="/birrete.png"
             type="image/png"
-            alt=""
+            alt="Educación financiera para invertir mejor tu dinero"
             className="h-56 object-contain lg:h-72 sm:mr-20"
           />
           <div>
           <div className="flex">
               <img
                 src="/servicio.png"
-                alt=""
+                alt="Icono de servicios financieros y de inversión"
                 className=" w-6 h-min mr-3 self-center md:w-10"
               />
               <h2 className="text-lg md:text-2xl text-gray-900 font-semibold">
